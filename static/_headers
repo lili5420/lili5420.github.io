@@ -1,0 +1,16 @@
+# Cloudflare Pages 会读取这个文件（构建时它会被复制到 dist/_headers）。
+# 只是可选的加固与缓存提示，删掉也不影响站点。
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+/*.css
+  Cache-Control: public, max-age=3600
+
+/*.js
+  Cache-Control: public, max-age=3600
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate

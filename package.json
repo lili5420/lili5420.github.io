@@ -1,0 +1,12 @@
+{
+  "name": "self-and-world-blog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A minimal static blog for essays on self and world",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node serve.mjs",
+    "new": "node new-post.mjs"
+  }
+}
