@@ -7,8 +7,8 @@ export default {
   tagline: '把想不清楚的问题，放在纸上慢一点',
   description: '一个关于自我、他人与世界的写作练习。',
   author: '佚名',
-  email: 'hello@example.com',
-  url: 'http://localhost:8000',
+  email: '3055227050@qq.com',
+  url: 'https://lili5420.github.io',
   lang: 'zh-CN',
   // 首页最多显示多少篇
   pageSize: 20,
