@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "生成网站",
+      "detail": "运行 node build.mjs，把 content/ 里的文章变成 dist/ 里的网页",
+      "type": "shell",
+      "command": "node",
+      "args": ["build.mjs"],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "启动本地预览",
+      "detail": "运行 node serve.mjs，然后在浏览器打开 http://localhost:8000",
+      "type": "shell",
+      "command": "node",
+      "args": ["serve.mjs"],
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

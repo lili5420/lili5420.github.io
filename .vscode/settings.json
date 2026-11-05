@@ -1,0 +1,29 @@
+{
+  // 专为写中文博客调整的编辑器设置，不会影响你其他项目
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+
+  "editor.wordWrap": "on",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 1.7,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+
+  "markdown.preview.fontSize": 15,
+  "markdown.preview.lineHeight": 1.8,
+  "markdown.preview.breaks": false,
+
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    }
+  },
+
+  "explorer.sortOrder": "modified",
+  "workbench.startupEditor": "none"
+}
