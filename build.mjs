@@ -179,6 +179,9 @@ function homePage(posts) {
   const body = `  <section class="hero">
     <h1 class="hero-title">${esc(site.title)}</h1>
     <p class="hero-tagline">${esc(site.tagline)}</p>
+    <figure class="hero-mark">
+      <img src="images/i-still.jpg" alt="纸上手写的 I Still" loading="lazy">
+    </figure>
   </section>
 
   <section class="post-list" aria-label="文章列表">

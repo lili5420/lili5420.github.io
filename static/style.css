@@ -243,6 +243,23 @@ main {
   letter-spacing: 0.03em;
 }
 
+.hero-mark {
+  margin: 2.4rem 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-mark img {
+  display: block;
+  width: 168px;
+  height: auto;
+  padding: 7px;
+  background: var(--bg-soft);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  opacity: 0.92;
+}
+
 .post-list {
   display: block;
 }
@@ -667,6 +684,15 @@ main {
 
   .hero {
     padding-top: 2.6rem;
+  }
+
+  .hero-mark {
+    margin-top: 1.8rem;
+    justify-content: flex-start;
+  }
+
+  .hero-mark img {
+    width: 140px;
   }
 
   .post {
