@@ -82,7 +82,7 @@ body {
   color: var(--fg);
   font-family: var(--font-serif);
   font-size: 1.0625rem;
-  line-height: 1.95;
+  line-height: 1.85;
   font-kerning: normal;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -337,7 +337,7 @@ main {
 }
 
 .post-body h2 {
-  margin: 3.2rem 0 1.1rem;
+  margin: 2.7rem 0 1rem;
   font-size: 1.16rem;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -347,7 +347,7 @@ main {
 }
 
 .post-body h3 {
-  margin: 2.4rem 0 0.9rem;
+  margin: 2rem 0 0.85rem;
   font-size: 1.03rem;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -356,7 +356,7 @@ main {
 }
 
 .post-body p {
-  margin: 0 0 1.35em;
+  margin: 0 0 1.6em;
   text-wrap: pretty;
 }
 
@@ -380,7 +380,7 @@ main {
 
 .post-body ul,
 .post-body ol {
-  margin: 0 0 1.35em;
+  margin: 0 0 1.6em;
   padding-left: 1.35em;
 }
 
@@ -655,7 +655,7 @@ main {
 @media (max-width: 33rem) {
   body {
     font-size: 1rem;
-    line-height: 1.88;
+    line-height: 1.8;
   }
 
   main,
